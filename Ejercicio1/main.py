@@ -1,10 +1,11 @@
-from figuras import Circulo, Cuadrado, Triangulo, Elipse
+from Circulo import Circulo
+from Cuadrado import Cuadrado
+from Elipse import Elipse
 
 def main():
     figuras = [
         Circulo(5),
         Cuadrado(4),
-        Triangulo(3, 6),
         Elipse(4, 6)
     ]
 
