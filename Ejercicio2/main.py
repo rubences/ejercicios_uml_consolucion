@@ -1,7 +1,7 @@
-from gales import Gales
-from spencer import Spencer
-from middleton import Middleton
-from windsor import Windsor
+from Gales import Gales
+from Spencer import Spencer
+from Middleton import Middleton
+from Windsor import Windsor
 
 def main():
     carlos = Gales("Carlos")
