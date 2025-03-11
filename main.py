@@ -3,11 +3,11 @@ import subprocess
 
 def run_exercise(exercise_number):
     if exercise_number == 1:
-        subprocess.run(["python", "ejercicio1/main.py"])
+        subprocess.run(["python", "Ejercicio1/main.py"])
     elif exercise_number == 2:
-        subprocess.run(["python", "ejercicio2/main.py"])
+        subprocess.run(["python", "Ejercicio2/main.py"])
     elif exercise_number == 3:
-        subprocess.run(["python", "ejercicio2/main.py"])
+        subprocess.run(["python", "Ejercicio3/main.py"])
     else:
         print("Número de ejercicio no válido.")
 
